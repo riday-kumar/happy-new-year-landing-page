@@ -462,6 +462,25 @@ footer {
   .discount h2 {
     font-size: 4.5rem;
   }
+
+  .mid-night {
+    flex-direction: column;
+    padding: 50px;
+  }
+
+  .mid-night-content {
+    width: 90%;
+  }
+
+  .mid-night-content h2 {
+    font-size: 3rem;
+    line-height: 60px;
+  }
+
+  .mid-night-img {
+    width: 100%;
+    text-align: center;
+  }
 }
 
 /* Responsive for Medium Screen */
@@ -486,6 +505,25 @@ footer {
   .discount img {
     /* width: 500px; */
     height: 500px;
+  }
+
+  .mid-night {
+    flex-direction: column;
+    padding: 50px;
+  }
+
+  .mid-night-content {
+    width: 90%;
+  }
+
+  .mid-night-content h2 {
+    font-size: 2.5rem;
+    line-height: 60px;
+  }
+
+  .mid-night-img {
+    width: 100%;
+    text-align: center;
   }
 }
 
@@ -520,6 +558,25 @@ footer {
   .discount img {
     /* width: 400px; */
     height: 400px;
+  }
+
+  .mid-night {
+    flex-direction: column;
+    padding: 30px;
+  }
+
+  .mid-night-content {
+    width: 90%;
+  }
+
+  .mid-night-content h2 {
+    font-size: 2.5rem;
+    line-height: 60px;
+  }
+
+  .mid-night-img {
+    width: 100%;
+    text-align: center;
   }
 }
 
@@ -556,5 +613,24 @@ footer {
   .discount img {
     /* width: 400px; */
     height: 400px;
+  }
+
+  .mid-night {
+    flex-direction: column;
+    padding: 50px;
+  }
+
+  .mid-night-content {
+    width: 90%;
+  }
+
+  .mid-night-content h2 {
+    font-size: 2.5rem;
+    line-height: 60px;
+  }
+
+  .mid-night-img {
+    width: 100%;
+    text-align: center;
   }
 }
