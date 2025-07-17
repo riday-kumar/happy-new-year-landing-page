@@ -81,13 +81,13 @@ body {
 }
 
 .banner h4 {
-  font-size: 32px;
+  font-size: 2rem;
   font-weight: 300;
   padding-bottom: 15px;
 }
 
 .banner h1 {
-  font-size: 72px;
+  font-size: 4.5rem;
   font-weight: 900;
   line-height: 95px;
 }
@@ -98,7 +98,7 @@ body {
 }
 
 .discount h2 {
-  font-size: 88px;
+  font-size: 5.5rem;
   font-weight: 700;
 }
 
@@ -112,13 +112,13 @@ body {
 }
 
 .holiday-deal p {
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 600;
   text-transform: uppercase;
 }
 
 .holiday-deal h3 {
-  font-size: 48px;
+  font-size: 3rem;
   font-weight: 700;
   text-transform: uppercase;
   padding-top: 16px;
@@ -163,20 +163,20 @@ body {
 }
 
 .mid-night-content h2 {
-  font-size: 64px;
+  font-size: 4rem;
   font-weight: 800;
   line-height: 88px;
 }
 
 .mid-night-content p {
-  font-size: 18px;
+  font-size: 1.2rem;
   line-height: 30px;
   font-weight: 400;
   padding: 30px 0;
 }
 
 .mid-night-content a {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 800;
   text-transform: uppercase;
   text-decoration: none;
@@ -207,7 +207,7 @@ body {
 }
 
 .specific-time h5 {
-  font-size: 32px;
+  font-size: 2rem;
   font-weight: 400;
   line-height: 56px;
 }
@@ -218,7 +218,7 @@ body {
   color: #ffffff;
   border: none;
   border-radius: 8px;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 700;
   margin-top: 45px;
 }
@@ -241,14 +241,14 @@ body {
 }
 
 .coming-part-one h3 {
-  font-size: 48px;
+  font-size: 3rem;
   font-weight: 800;
   color: #070211;
   padding-top: 16px;
 }
 
 .coming-part-one p {
-  font-size: 20px;
+  font-size: 1.25rem;
   color: #070211;
   padding-top: 20px;
   text-align: justify;
@@ -267,13 +267,13 @@ body {
 }
 
 .coming-part-three h3 {
-  font-size: 48px;
+  font-size: 3rem;
   font-weight: 800;
   color: #ff0000;
 }
 
 .coming-part-three p {
-  font-size: 20px;
+  font-size: 1.25rem;
   color: #070211;
   padding-top: 20px;
   text-align: justify;
@@ -285,19 +285,19 @@ body {
 
 /* holidays sale */
 .holiday-prehead {
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 400;
   text-transform: capitalize;
   text-align: center;
 }
 
 .holiday h3 {
-  font-size: 72px;
+  font-size: 4.5rem;
   font-weight: 800;
 }
 
 .holiday p {
-  font-size: 20px;
+  font-size: 1.25rem;
   color: #070211;
   padding-top: 20px;
   text-align: center;
@@ -324,19 +324,19 @@ body {
 
 /* portfolio section  */
 .portfolio-prehead {
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 400;
   text-transform: capitalize;
 }
 
 .portfolio-heading {
-  font-size: 48px;
+  font-size: 3rem;
   font-weight: 800;
   padding-top: 10px;
 }
 
 .portfolio-des {
-  font-size: 20px;
+  font-size: 1.25rem;
   color: #070211;
   padding-top: 20px;
 }
@@ -356,13 +356,13 @@ body {
 }
 
 .subscribe h3 {
-  font-size: 48px;
+  font-size: 3rem;
   font-weight: 800;
   padding: 20px 0;
 }
 
 .subscribe p {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 300;
   line-height: 32px;
 }
@@ -407,6 +407,8 @@ footer {
 
 .contact {
   display: flex;
+  flex-direction: column;
+  gap: 15px;
   justify-content: center;
   align-items: center;
 }
@@ -434,4 +436,76 @@ footer {
   padding-top: 50px;
   display: flex;
   justify-content: space-between;
+}
+
+.display-none {
+  display: none;
+}
+
+/* Responsive for Large Screen */
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .banner {
+    padding: 100px 0;
+    height: 350px;
+  }
+
+  .banner::before {
+    height: 505px;
+  }
+}
+
+/* Responsive for Medium Screen */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .banner {
+    padding: 100px 0;
+    height: 168px;
+  }
+
+  .banner::before {
+    height: 370px;
+  }
+}
+
+/* Responsive for Small Screen */
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .banner {
+    padding: 30px;
+    height: 250px;
+  }
+
+  .banner::before {
+    height: 265px;
+  }
+
+  .banner h4 {
+    font-size: 1.25rem;
+  }
+
+  .banner h1 {
+    font-size: 3.25rem;
+    line-height: 70px;
+  }
+}
+
+/* Responsive for Mobile */
+@media screen and (max-width: 576px) {
+  .banner {
+    padding: 0;
+    height: 255px;
+    background-size: cover;
+  }
+
+  .banner h4 {
+    padding-top: 30px;
+    font-size: 1rem;
+  }
+
+  .banner h1 {
+    font-size: 2.5rem;
+    line-height: 52px;
+  }
+
+  .banner::before {
+    height: 255px;
+  }
 }
