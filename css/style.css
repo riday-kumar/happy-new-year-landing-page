@@ -103,7 +103,8 @@ body {
 }
 
 .discount img {
-  width: 800px;
+  /* width: 800px; */
+  max-width: 100%;
   height: 500px;
 }
 
@@ -452,6 +453,15 @@ footer {
   .banner::before {
     height: 505px;
   }
+
+  .discount img {
+    /* width: 650px; */
+    height: 650px;
+  }
+
+  .discount h2 {
+    font-size: 4.5rem;
+  }
 }
 
 /* Responsive for Medium Screen */
@@ -463,6 +473,19 @@ footer {
 
   .banner::before {
     height: 370px;
+  }
+
+  .discount h2 {
+    font-size: 3.5rem;
+  }
+
+  .discount h3 {
+    font-size: 2.5rem;
+  }
+
+  .discount img {
+    /* width: 500px; */
+    height: 500px;
   }
 }
 
@@ -484,6 +507,19 @@ footer {
   .banner h1 {
     font-size: 3.25rem;
     line-height: 70px;
+  }
+
+  .discount h2 {
+    font-size: 3rem;
+  }
+
+  .discount h3 {
+    font-size: 2rem;
+  }
+
+  .discount img {
+    /* width: 400px; */
+    height: 400px;
   }
 }
 
@@ -507,5 +543,18 @@ footer {
 
   .banner::before {
     height: 255px;
+  }
+
+  .discount h2 {
+    font-size: 2.5rem;
+  }
+
+  .discount h3 {
+    font-size: 2rem;
+  }
+
+  .discount img {
+    /* width: 400px; */
+    height: 400px;
   }
 }
