@@ -623,7 +623,7 @@ footer {
 
   .subscribe {
     max-width: 100%;
-    padding: 0;
+    padding: 40px 0;
   }
 
   .subscribe h3 {
@@ -638,12 +638,6 @@ footer {
     width: 30%;
   }
 
-  footer {
-    margin-top: 50px;
-    padding: 10px;
-    text-align: center;
-  }
-
   .contact {
     margin-top: 20px;
   }
@@ -651,6 +645,11 @@ footer {
   .ft-part-one,
   .copyright {
     flex-direction: column;
+  }
+
+  footer {
+    padding: 50px 0;
+    text-align: center;
   }
 }
 
@@ -786,6 +785,10 @@ footer {
   .ft-part-one,
   .copyright {
     flex-direction: column;
+  }
+
+  footer {
+    padding: 50px 0;
   }
 }
 
@@ -952,6 +955,10 @@ footer {
   .ft-part-one,
   .copyright {
     flex-direction: column;
+  }
+
+  footer {
+    padding: 50px 0;
   }
 
   .mt {
