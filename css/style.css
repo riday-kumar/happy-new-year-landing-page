@@ -637,6 +637,21 @@ footer {
   .subscribe input[type="submit"] {
     width: 30%;
   }
+
+  footer {
+    margin-top: 50px;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .contact {
+    margin-top: 20px;
+  }
+
+  .ft-part-one,
+  .copyright {
+    flex-direction: column;
+  }
 }
 
 /* Responsive for Small Screen */
@@ -756,6 +771,21 @@ footer {
 
   .subscribe input[type="submit"] {
     width: 30%;
+  }
+
+  footer {
+    margin-top: 50px;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .contact {
+    margin-top: 20px;
+  }
+
+  .ft-part-one,
+  .copyright {
+    flex-direction: column;
   }
 }
 
@@ -922,5 +952,9 @@ footer {
   .ft-part-one,
   .copyright {
     flex-direction: column;
+  }
+
+  .mt {
+    margin-top: 60px;
   }
 }
