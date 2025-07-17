@@ -908,4 +908,19 @@ footer {
   .subscribe input[type="submit"] {
     width: 25%;
   }
+
+  footer {
+    margin-top: 50px;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .contact {
+    margin-top: 20px;
+  }
+
+  .ft-part-one,
+  .copyright {
+    flex-direction: column;
+  }
 }
